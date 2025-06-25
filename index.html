@@ -357,10 +357,10 @@ async function calculate() {
     const bonus = salary * bonusRate;
     const grossCAD = salary + bonus;
 
-    // Get live exchange rate from exchangerate.host
+    // Get live exchange rate from Frankfurter API
     let fx = 0.73; // default fallback
     try {
-        const fxResp = await fetch("https://api.exchangerate.host/latest?base=CAD&symbols=USD");
+        const fxResp = await fetch("https://api.frankfurter.app/latest?from=CAD&to=USD");
         if (!fxResp.ok) throw new Error("Exchange rate fetch failed");
         const fxData = await fxResp.json();
         if (fxData && fxData.rates && fxData.rates.USD !== undefined) {
