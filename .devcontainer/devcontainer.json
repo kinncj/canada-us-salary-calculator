@@ -1,0 +1,17 @@
+{
+  "name": "Canada-US Salary Calculator",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20-bullseye",
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ms-vscode.live-server"
+      ]
+    }
+  },
+  "forwardPorts": [5500],
+  "postCreateCommand": "echo 'Devcontainer ready.'"
+}
