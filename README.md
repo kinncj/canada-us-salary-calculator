@@ -1,5 +1,7 @@
 # Canada vs US Net Income Calculator
 
+> Compare net income between Canadian provinces and US states. Calculate salary, bonus, RRSP/401k, and taxes with live exchange rates and interactive charts.
+
 This project is a web-based calculator that compares net income between Canadian provinces and US states, factoring in salary, bonus, retirement contributions, and taxes. It provides detailed annual and monthly breakdowns, as well as visualizations using charts.
 
 ## Features
@@ -25,6 +27,10 @@ To get started:
 1. Open this folder in VS Code.
 2. Reopen in Container when prompted.
 3. Use the Live Server extension to preview `index.html`.
+
+## SEO & Indexing
+- Includes SEO meta tags, Open Graph, Twitter Card, and manifest for rich search and sharing.
+- `robots.txt` and `sitemap.xml` provided for search engine crawling.
 
 ## License
 See [LICENSE](LICENSE).

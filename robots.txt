@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://canada-us-salary-calculator.example.com/sitemap.xml
